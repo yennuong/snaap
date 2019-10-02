@@ -1,0 +1,26 @@
+.page-main {
+  -webkit-flex-basis: auto;
+  flex-basis: auto;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+.columns{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 9px;
+  padding-right: 9px;
+  max-width: 1360px;
+}
+.column.main{
+  padding-left: 9px;
+  padding-right: 9px;
+}
+@media only screen and (min-width: 1024px){
+  .page-main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
