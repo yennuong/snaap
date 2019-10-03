@@ -16,12 +16,6 @@ class App extends Component {
                         </div>
                     </div>
                 </div>
-                <ListCategories/>
-                <ProductsContainer />
-                <div className="row">
-                	{/*<ProductsContainer />*/}
-                	{/*<Cart />*/}
-                </div>
             </div>
         );
     }
