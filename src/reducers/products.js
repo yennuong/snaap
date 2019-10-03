@@ -16,7 +16,7 @@ let defaultState = [
 			'                  ',
 		image: 'item01.jpg',
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quas, magnam perferendis ',
-		price: 15000000,
+		price: 14000000,
 		canBuy: true
 	},
 	{
@@ -25,7 +25,7 @@ let defaultState = [
 		image: 'item01.jpg',
 		summary: 'APPLE iPhone 8 Plus  (5.5” LED-backlit IPS LCD/RAM 3GB/64GB/Gold)\n' +
 			'                   ',
-		price: 15000000,
+		price: 13000000,
 		canBuy: true
 	},
 	{
@@ -34,7 +34,7 @@ let defaultState = [
 		image: 'item01.jpg',
 		summary: 'APPLE iPhone 8 Plus  (5.5” LED-backlit IPS LCD/RAM 3GB/64GB/Gold)\n' +
 			'                   ',
-		price: 15000000,
+		price: 12000000,
 		canBuy: false
 	}
 ];
