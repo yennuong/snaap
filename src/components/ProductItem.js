@@ -47,18 +47,6 @@ class ProductItem extends Component {
                     <p className="item-price">{ product.price }</p>
 
                 </div>
-                {/*<div className="media product">*/}
-                {/*    <div className="media-left">*/}
-                {/*        <a href="http://localhost:3000/">*/}
-                {/*            <img className="media-object" src={`images/${product.image}`} alt="{ product.name }" />*/}
-                {/*        </a>*/}
-                {/*    </div>*/}
-                {/*    <div className="media-body">*/}
-                {/*        <h4 className="media-heading">{ product.name }</h4>*/}
-                {/*        <p>{ product.summary }</p>*/}
-                {/*        {this.showAreaBuy(product)}*/}
-                {/*    </div>*/}
-                {/*</div>*/}
             </div>
         );
     }

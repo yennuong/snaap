@@ -1,77 +1,34 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
-
+import CategoriesList from "./CategoriesList";
+import CategoriesItem from "./CategoriesItem";
 class ListCategories extends Component {
     render() {
         let {categories}   = this.props;
+        console.log('categories',categories);
         return (
-            <div className="categories">
-                <div className="categories__item ">
-                    <a>
-                        <span className="icon"></span>
-                        <span className="icon">Men Fashion</span>
-                    </a>
-                </div>
-                <div className="categories__item ">
-                    <a>
-                        <span className="icon"></span>
-                        <span className="icon">Men Fashion</span>
-                    </a>
-                </div>
-                <div className="categories__item ">
-                    <a>
-                        <span className="icon"></span>
-                        <span className="icon">Men Fashion</span>
-                    </a>
-                </div>
-                <div className="categories__item ">
-                    <a>
-                        <span className="icon"></span>
-                        <span className="icon">Men Fashion</span>
-                    </a>
-                </div>
-                <div className="categories__item ">
-                    <a>
-                        <span className="icon"></span>
-                        <span className="icon">Men Fashion</span>
-                    </a>
-                </div>
-                <div className="categories__item ">
-                    <a>
-                        <span className="icon"></span>
-                        <span className="icon">Men Fashion</span>
-                    </a>
-                </div>
-                <div className="categories__item ">
-                    <a>
-                        <span className="icon"></span>
-                        <span className="icon">Men Fashion</span>
-                    </a>
-                </div>
-                <div className="categories__item ">
-                    <a>
-                        <span className="icon"></span>
-                        <span className="icon">Men Fashion</span>
-                    </a>
-                </div>
-                <div className="categories__item ">
-                    <a>
-                        <span className="icon"></span>
-                        <span className="icon">Men Fashion</span>
-                    </a>
-                </div>
-                <div className="categories__item ">
-                    <a>
-                        <span className="icon"></span>
-                        <span className="icon">Men Fashion</span>
-                    </a>
-                </div>
-            </div>
+            <CategoriesList>
+                {this.showElementCategories(categories)}
+            </CategoriesList>
         );
+    }
+
+    showElementCategories(categories){
+        let xhtml  = "";
+        if(categories.length > 0 ){
+            xhtml = categories.map((categories, index)=> {
+                return (
+                    <CategoriesItem
+                        key={index}
+                        categories={categories} index={index}
+                    />
+                );
+            });
+        }
+        return xhtml;
     }
 }
 const mapStateToProps = state => {
-    console.log('state',state);
     return {
         categories: state.categories
     }

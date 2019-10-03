@@ -2,16 +2,34 @@ import * as types from './../constants/ActionType';
 
 let defaultState = [
     {
-        name: 'men'
+        name: 'Men Fashion'
     },
     {
-        name: 'men'
+        name: 'Men Fashion'
     },
     {
-        name: 'men'
+        name: 'Men Fashion'
     },
     {
-        name: 'men'
+        name: 'Men Fashion'
+    },
+    {
+        name: 'Men Fashion'
+    },
+    {
+        name: 'Men Fashion'
+    },
+    {
+        name: 'Men Fashion'
+    },
+    {
+        name: 'Men Fashion'
+    },
+    {
+        name: 'Men Fashion'
+    },
+    {
+        name: 'Men Fashion'
     }
 ];
 

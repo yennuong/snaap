@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import Sort from './Sort';
 class ListFilter extends Component {
     render() {
         return (
             <div className="sort-box-holder">
-                <div className="sort-box">Sort</div>
+                <Sort/>
+
                 <div className="filter">Filter</div>
             </div>
         );
