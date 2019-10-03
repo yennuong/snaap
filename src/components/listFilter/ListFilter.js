@@ -5,7 +5,6 @@ class ListFilter extends Component {
         return (
             <div className="sort-box-holder">
                 <Sort/>
-
                 <div className="filter">Filter</div>
             </div>
         );

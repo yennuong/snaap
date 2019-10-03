@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1f3cb68e-2a28-42c5-98c8-443404d8928d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/categories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/listFilter/ListFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/listFilter/ListFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/listFilter/Sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/listFilter/Sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/listcategories/CategoriesItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/listcategories/CategoriesItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/listcategories/ListCategories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/listcategories/ListCategories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/isShowForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/isShowForm.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +65,7 @@
       <updated>1569982963066</updated>
       <workItem from="1569982965322" duration="4276000" />
       <workItem from="1569995852423" duration="11394000" />
-      <workItem from="1570070420084" duration="15126000" />
+      <workItem from="1570070420084" duration="17332000" />
     </task>
     <servers />
   </component>

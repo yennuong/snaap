@@ -5,7 +5,6 @@ import CategoriesItem from "./CategoriesItem";
 class ListCategories extends Component {
     render() {
         let {categories}   = this.props;
-        console.log('categories',categories);
         return (
             <CategoriesList>
                 {this.showElementCategories(categories)}

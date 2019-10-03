@@ -39,6 +39,18 @@ export const actChangeNotify = (content) => {
 		content
 	}
 }
+export const actCloseForm = () => {
+	return {
+		type : types.CLOSE_FORM
+	}
+}
+
+export const actOpenForm = () => {
+	return {
+		type : types.OPEN_FORM
+	}
+}
+
 export const actToggleForm = () => {
 	return {
 		type : types.TOGGLE_FORM
