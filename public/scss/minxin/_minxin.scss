@@ -1,0 +1,9 @@
+@mixin clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+@mixin flex {
+  display: -webkit-flex;
+  display: flex;
+}

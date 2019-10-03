@@ -19,6 +19,13 @@ img {
   max-width: 100%;
 }
 
+input {
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+
 .page-main {
   -webkit-flex-basis: auto;
   flex-basis: auto;
@@ -43,84 +50,55 @@ img {
 }
 
 @media only screen and (min-width: 1024px) {
+  .header.content {
+    max-width: 1042px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
   .page-main {
-    max-width: 1024px;
+    max-width: 1042px;
     margin: 0 auto;
   }
 }
-h1.page-title {
-  margin-bottom: 20px;
+header {
+  background-color: #e73723;
+  min-height: 50px;
 }
 
-div.product {
-  border-bottom: 2px solid #eee;
-  padding: 2px 0px 12px 0px;
+.search-container .search-input {
+  height: 22px;
+  border-radius: 2px;
+  background-color: #fff;
+  padding: 5px;
 }
 
-div.product:last-child {
-  border-bottom: 0px;
+@media only screen and (min-width: 1024px) {
+  .header.content {
+    padding-top: 14px;
+  }
+  .header.content .logo,
+.header.content .search-container {
+    float: left;
+  }
+  .header.content .inner:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .header.content .logo {
+    margin-top: -1px;
+    margin-right: 30px;
+  }
+  .header.content .search-container {
+    width: 224px;
+  }
+  .header.content .search-container input {
+    width: 100%;
+  }
 }
-
-div.product div.media-left a img {
-  max-width: 120px;
-}
-
-div.product div.media-body {
-  position: relative;
-}
-
-div.product div.media-body p {
-  padding-right: 90px;
-}
-
-div.product div.media-body a.price,
-div.product div.media-body span.price {
-  position: absolute;
-  bottom: 5px;
-  right: 0px;
-  padding: 5px 10px;
-  background-color: #FF4000;
-  font-size: 16px;
-  color: #fff;
-  text-decoration: none;
-  opacity: 0.8;
-}
-
-div.product div.media-body input {
-  position: absolute;
-  top: 5px;
-  right: 0px;
-  max-width: 76px;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-table input {
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-}
-
-#my-cart-body input {
-  max-width: 50px;
-}
-
-div.product div.media-body span.price {
-  background-color: #BDBDBD;
-}
-
-div.product div.media-body a.price:hover {
-  text-decoration: none;
-  opacity: 1;
-}
-
-.total-price {
-  font-weight: bold;
-  color: #FF0000;
-  font-size: 16px;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
