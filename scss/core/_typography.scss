@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@font-face {
+  font-family: 'fonticon';
+  src:  url('../fonts/fonticon/icomoon.eot');
+  src:  url('../fonts/fonticon/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fonticon/icomoon.woff') format('woff'),
+        url('../fonts/fonticon/icomoon.ttf') format('truetype'),
+        url('../fonts/fonticon/icomoon.svg#open_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-family: 'Roboto', sans-serif;
+$font-icon: 'fonticon';
+
+
+body{
+  overflow-x: hidden;
+  font-weight: 400;
+  line-height: 1.42857143;
+  font-style: normal;
+  font-size: 14px;
+  font-family: $font-family;
+  background-color: $background-gray;
+}
+img{
+  max-width: 100%;
+}
+input{
+  border: none;
+  &:focus{
+    outline: none;
+  }
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  &:hover{
+    text-decoration: none;
+  }
+}
