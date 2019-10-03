@@ -1,0 +1,14 @@
+.sort-box-holder{
+  background-color: $color-white;
+  margin-bottom: 20px;
+  padding: 14px 15px;
+  &:after{
+    @include clearfix;
+  }
+  .sort-box{
+    float: left;
+  }
+  .filter{
+    float: right;
+  }
+}

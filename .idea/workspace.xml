@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f3cb68e-2a28-42c5-98c8-443404d8928d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/scss/minxin/_minxin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/nav-right/Nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/content/_categories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/content/_content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/content/_sort-box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/listFilter/ListFilter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scss/core/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/core/_color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/core/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/core/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/core/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/core/_icon.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scss/core/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/core/_layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scss/core/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/core/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/minxin/_minxin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/minxin/_minxin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/nav-right/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav-right/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/listcategories/ListCategories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/listcategories/ListCategories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/ProductsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ProductsContainer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Rd35TtYDZYfMIBA58avLMgqP3P" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -69,7 +77,7 @@
       <updated>1569982963066</updated>
       <workItem from="1569982965322" duration="4276000" />
       <workItem from="1569995852423" duration="11394000" />
-      <workItem from="1570070420084" duration="3542000" />
+      <workItem from="1570070420084" duration="9818000" />
     </task>
     <servers />
   </component>

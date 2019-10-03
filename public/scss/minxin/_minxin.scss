@@ -7,3 +7,11 @@
   display: -webkit-flex;
   display: flex;
 }
+@mixin border-radius($values) {
+  @each $var in $values {
+    border-radius: #{$var};
+  }
+}
+@mixin icon {
+  font-family: $font-icon;
+}

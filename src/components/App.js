@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header/Header';
 import ListCategories from './listcategories/ListCategories';
+import ListFilter from './listFilter/ListFilter';
 import ProductsContainer from './../containers/ProductsContainer';
 import Cart from './Cart';
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
                     <div className="columns">
                         <div className="column main">
                             <ListCategories/>
+                            <ListFilter/>
                             <ProductsContainer />
                         </div>
                     </div>

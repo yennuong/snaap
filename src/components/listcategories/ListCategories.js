@@ -4,13 +4,54 @@ import {connect} from "react-redux";
 class ListCategories extends Component {
     render() {
         let {categories}   = this.props;
-        console.log(categories);
         return (
             <div className="categories">
                 <div className="categories__item ">
                     <a>
                         <span className="icon"></span>
-                        {/*<span className="icon">{ categories.name }</span>*/}
+                        <span className="icon">Men Fashion</span>
+                    </a>
+                </div>
+                <div className="categories__item ">
+                    <a>
+                        <span className="icon"></span>
+                        <span className="icon">Men Fashion</span>
+                    </a>
+                </div>
+                <div className="categories__item ">
+                    <a>
+                        <span className="icon"></span>
+                        <span className="icon">Men Fashion</span>
+                    </a>
+                </div>
+                <div className="categories__item ">
+                    <a>
+                        <span className="icon"></span>
+                        <span className="icon">Men Fashion</span>
+                    </a>
+                </div>
+                <div className="categories__item ">
+                    <a>
+                        <span className="icon"></span>
+                        <span className="icon">Men Fashion</span>
+                    </a>
+                </div>
+                <div className="categories__item ">
+                    <a>
+                        <span className="icon"></span>
+                        <span className="icon">Men Fashion</span>
+                    </a>
+                </div>
+                <div className="categories__item ">
+                    <a>
+                        <span className="icon"></span>
+                        <span className="icon">Men Fashion</span>
+                    </a>
+                </div>
+                <div className="categories__item ">
+                    <a>
+                        <span className="icon"></span>
+                        <span className="icon">Men Fashion</span>
                     </a>
                 </div>
                 <div className="categories__item ">

@@ -1,0 +1,18 @@
+.categories{
+  margin: 11px -2px;
+  white-space: nowrap;
+  overflow-x: auto;
+  .categories__item{
+    display: inline-block;
+    border: $border-base;
+    margin: 0 2px 0 0;
+    padding: 2px 12px;
+    min-height: 100px;
+    font-size: 13px;
+    background-color: $color-white;
+  }
+  .icon{
+    min-height: 40px;
+    display: block;
+  }
+}
