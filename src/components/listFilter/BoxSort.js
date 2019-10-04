@@ -12,13 +12,14 @@ class BoxSort extends Component{
     render(){
         let { isShowBox } = this.props;
         let {orderBy, orderDir}     = this.props.sort;
-        let strSort = orderBy + " - " + orderDir;
         if(isShowBox === false) return null;
+
         return(
             <ul className='list'>
                 <li><a onClick={()=>this.handleSort('name', 'asc')}>Name ASC</a></li>
                 <li><a onClick={()=>this.handleSort('name', 'desc')}>Name DESC</a></li>
-                <span className="label label-success label-medium">{ strSort }</span>
+                <li><a onClick={()=>this.handleSort('price', 'asc')}>Price ASC</a></li>
+                <li><a onClick={()=>this.handleSort('price', 'desc')}>Price DESC</a></li>
             </ul>
 
         );
