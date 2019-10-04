@@ -56,3 +56,15 @@ export const actToggleForm = () => {
 		type : types.TOGGLE_FORM
 	}
 }
+export const actToggleBox = () => {
+	return {
+		type : types.TOGGLE_BOX
+	}
+}
+export const actSort = (orderBy, orderDir) => {
+	return {
+		type : types.SORT_ITEM,
+		orderBy,
+		orderDir
+	}
+}

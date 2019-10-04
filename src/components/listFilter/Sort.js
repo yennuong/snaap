@@ -1,31 +1,33 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import {actToggleForm} from './../../actions/index'
+import BoxSort from "./BoxSort";
+import {actToggleBox} from './../../actions/index'
 class Sort extends Component {
-    toggleForm = () => {
+    toggleBox = () => {
         this.props.handleToggle();
     }
     render() {
-        const {isShowForm}  = this.props;
-        console.log('isShowForm',isShowForm);
-        let btnName         = (isShowForm === true) ? "Low Price" : "Sort";
-        let btnClass        = (isShowForm === true) ? "btn-success" : "btn-info";
+        const {isShowBox}  = this.props;
+        let btnName         = (isShowBox === true) ? "Sort" : "Sort";
+        let btnClass        = (isShowBox === true) ? "show-sort" : "hide-sort";
         return (
-                <div className="sort-box" onClick={this.toggleForm}>{btnName}</div>
+                <div className={`sort-box ${btnClass}`}  onClick={this.toggleBox}>
+                    {btnName}
+                    <BoxSort />
+                </div>
         );
     }
 }
 
 const mapStateToProps = state => {
-    console.log('isShowForm',state);
     return {
-        isShowForm: state.isShowForm
+        isShowBox: state.isShowBox
     }
 }
 const mapDispatchToProps = (dispatch, ownProps) => {
     return {
         handleToggle: () => {
-            dispatch(actToggleForm()) ;
+            dispatch(actToggleBox()) ;
         }
     }
 }

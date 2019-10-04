@@ -201,4 +201,23 @@ header {
   float: right;
 }
 
+.sort-box {
+  position: relative;
+  cursor: pointer;
+}
+.sort-box .list {
+  position: absolute;
+  top: 35px;
+  left: 0;
+}
+.sort-box .list {
+  background-color: #fff;
+  width: 150px;
+  z-index: 1;
+  box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+  box-sizing: border-box;
+  padding: 5px 10px;
+  list-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -3,7 +3,6 @@ class CategoriesItem extends Component {
 
     render() {
         let {categories}   = this.props;
-        console.log('categories',categories);
         return (
             <div className="categories__item ">
                 <a>
