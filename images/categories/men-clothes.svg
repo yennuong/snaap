@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.981" height="28.071" viewBox="0 0 24.981 28.071">
+  <g id="Group_275" data-name="Group 275" transform="translate(0 0.375)">
+    <g id="Group_273" data-name="Group 273" transform="translate(0 1.629)">
+      <path id="Path_220" data-name="Path 220" d="M-118.118,390.627a1.653,1.653,0,0,1-1.651-1.651V368.112a1.653,1.653,0,0,1,1.651-1.651c.135-.014,8.168-1.086,10.919-1.086,2.485.013,9.813,1.071,9.887,1.082a1.673,1.673,0,0,1,1.71,1.655v20.864a1.653,1.653,0,0,1-1.651,1.651Z" transform="translate(120.176 -364.968)" fill="#fff"/>
+      <path id="Path_221" data-name="Path 221" d="M-107.167,365l.052.815c2.4.013,9.7,1.067,9.776,1.077l.059.009h.059a1.245,1.245,0,0,1,1.244,1.244v20.864a1.246,1.246,0,0,1-1.244,1.244h-20.864a1.245,1.245,0,0,1-1.244-1.244V368.144a1.245,1.245,0,0,1,1.244-1.244h.054l.053-.008c.081-.011,8.086-1.079,10.811-1.079V365m0,0c-2.811,0-10.919,1.086-10.919,1.086a2.058,2.058,0,0,0-2.058,2.058v20.864a2.058,2.058,0,0,0,2.058,2.058h20.864a2.058,2.058,0,0,0,2.058-2.058V368.144a2.058,2.058,0,0,0-2.058-2.058s-7.4-1.073-9.889-1.086Z" transform="translate(120.144 -365)"/>
+    </g>
+    <line id="Line_2" data-name="Line 2" y2="20.636" transform="translate(12.647 6.517)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="0.75"/>
+    <rect id="Rectangle_86" data-name="Rectangle 86" width="14.119" height="5.431" transform="translate(5.587 0.543)" fill="#fff"/>
+    <g id="Group_274" data-name="Group 274" transform="translate(3.065 0.09)">
+      <path id="Path_222" data-name="Path 222" d="M-108.551,370.976l-1.846,1.846a1.715,1.715,0,0,1-2.444-.488l-4.045-5.043a1.5,1.5,0,0,1-.117-1.973l1.448-1.449a1.4,1.4,0,0,1,1.934.252l4.8,4.8A1.488,1.488,0,0,1-108.551,370.976Z" transform="translate(117.322 -363.583)" fill="#e73723" stroke="#000" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Path_223" data-name="Path 223" d="M-108.018,370.976l1.846,1.846a1.715,1.715,0,0,0,2.444-.488l4.044-5.043a1.5,1.5,0,0,0,.118-1.973l-1.449-1.449a1.4,1.4,0,0,0-1.933.252l-4.8,4.8A1.488,1.488,0,0,0-108.018,370.976Z" transform="translate(118.097 -363.583)" fill="#e73723" stroke="#000" stroke-miterlimit="10" stroke-width="0.75"/>
+    </g>
+    <line id="Line_3" data-name="Line 3" x2="14.202" transform="translate(5.044 0)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="0.75"/>
+    <rect id="Rectangle_87" data-name="Rectangle 87" width="6.517" height="2.172" rx="0.504" transform="translate(18.077 13.033)" fill="#e73723" stroke="#000" stroke-miterlimit="10" stroke-width="0.75"/>
+  </g>
+</svg>
