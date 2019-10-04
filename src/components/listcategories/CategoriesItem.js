@@ -3,10 +3,11 @@ class CategoriesItem extends Component {
 
     render() {
         let {categories}   = this.props;
+        console.log('categories',categories);
         return (
             <div className="categories__item ">
                 <a>
-                    <span className="icon"></span>
+                    <span className="icon"><img src={`images/categories/${categories.image}`} alt="{ categories.name }" /></span>
                     <span>{categories.name}</span>
                 </a>
             </div>

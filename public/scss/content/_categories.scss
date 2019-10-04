@@ -12,9 +12,13 @@
     font-size: 13px;
     background-color: $color-white;
     text-align: center;
+    vertical-align: top;
   }
   .icon{
     min-height: 40px;
     display: block;
+    padding-top: 17px;
+    height: 35px;
+    margin-bottom: 15px;
   }
 }

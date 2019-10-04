@@ -174,10 +174,14 @@ header {
   font-size: 13px;
   background-color: #fff;
   text-align: center;
+  vertical-align: top;
 }
 .categories .icon {
   min-height: 40px;
   display: block;
+  padding-top: 17px;
+  height: 35px;
+  margin-bottom: 15px;
 }
 
 .sort-box-holder {

@@ -2,34 +2,44 @@ import * as types from './../constants/ActionType';
 
 let defaultState = [
     {
-        name: 'Electronics'
+        name: 'Electronics',
+        image: 'electronics.svg',
     },
     {
-        name: 'Men Fashion'
+        name: 'Men Fashion',
+        image: 'men-clothes.svg',
     },
     {
-        name: 'Women Fashion'
+        name: 'Women Fashion',
+        image: 'women-clothes.svg',
     },
     {
-        name: 'Beauty'
+        name: 'Beauty',
+        image: 'beauty.svg',
     },
     {
-        name: 'Book Tickets'
+        name: 'Book Tickets',
+        image: 'book-tickets.svg',
     },
     {
-        name: 'Furniture'
+        name: 'Furniture',
+        image: 'furniture.svg',
     },
     {
-        name: 'Sports'
+        name: 'Sports',
+        image: 'sports.svg',
     },
     {
-        name: 'Kids'
+        name: 'Kids',
+        image: 'kids.svg',
     },
     {
-        name: 'Car - Bike'
+        name: 'Car - Bike',
+        image: 'car-bike.svg',
     },
     {
-        name: 'Belongings'
+        name: 'Belongings',
+        image: 'belongings.svg',
     }
 ];
 
