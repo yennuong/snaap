@@ -3,19 +3,20 @@ import { connect } from 'react-redux';
 import BoxSort from "./BoxSort";
 import {actToggleBox} from './../../actions/index'
 class Sort extends Component {
+    constructor(props) {
+        super(props)
+    }
     toggleBox = () => {
         this.props.handleToggle();
     }
     render() {
-        const {isShowBox}  = this.props;
-        let {orderBy, orderDir}     = this.props.sort;
-        let strSort = orderBy + " - " + orderDir;
-        let btnName         = (isShowBox === true) ? "Sort" : "Sort";
-        let btnClass        = (isShowBox === true) ? "show-sort" : "hide-sort";
+        const   {isShowBox}             = this.props;
+        let     {orderBy, orderDir}     = this.props.sort;
+        let     btnName                 = (isShowBox === true) ? "Sort": "Sort";
+        let     btnClass                = (isShowBox === true) ? "show-sort" : "hide-sort";
         return (
-                <div className={`sort-box ${btnClass}`}  onClick={this.toggleBox}>
+                <div className={`sort-box box-list ${btnClass}`}  onClick={this.toggleBox}>
                     {btnName}
-                    <span className="label label-success label-medium">{ strSort }</span>
                     <BoxSort />
                 </div>
         );

@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-class Search extends Component {
+import Notification from "./Notification";
+class Nav extends Component {
     render() {
         return (
             <div className="nav-item nav-right">
-                <a className="notification">
-                    <span className="icon"></span>
-                    Notification
-                </a>
+                <Notification/>
                 <a className="chat">
                     <span className="icon"></span>
                     Chat
@@ -28,4 +26,4 @@ class Search extends Component {
     }
 }
 
-export default Search;
+export default Nav;

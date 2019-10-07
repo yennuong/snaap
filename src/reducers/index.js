@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
 import products from './products';
 import categories from './categories';
+import notification from './notification';
 import carts from './carts';
 import notify from './notify';
 import isShowBox from './isShowBox';
@@ -9,6 +10,7 @@ import sort from './sort';
 
 const appReducers = combineReducers({
 	products,
+	notification,
 	notify,
 	carts,
 	categories,

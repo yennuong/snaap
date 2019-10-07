@@ -1,5 +1,10 @@
 import * as types from './../constants/ActionType';
 
+export const actListNotification = () => {
+	return {
+		type : types.LIST_NOTIFICATION
+	}
+}
 export const actListProduct = () => {
 	return {
 		type : types.LIST_PRODUCT
